@@ -1,5 +1,4 @@
 streamlit
-langchain
 langchain-community
 langchain-groq
 langchain-openai
@@ -8,6 +7,4 @@ faiss-cpu
 pypdf
 python-dotenv
 cohere==4.57
-numpy==1.26.4
-zstandard==0.22.0
 langsmith==0.1.147
