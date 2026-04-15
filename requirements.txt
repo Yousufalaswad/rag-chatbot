@@ -7,5 +7,5 @@ langchain-text-splitters
 faiss-cpu
 pypdf
 python-dotenv
-cohere
+cohere==4.57
 numpy<2
