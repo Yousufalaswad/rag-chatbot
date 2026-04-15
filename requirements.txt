@@ -8,4 +8,4 @@ faiss-cpu
 pypdf
 python-dotenv
 cohere==4.57
-numpy<2
+numpy==1.26.4
