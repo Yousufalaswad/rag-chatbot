@@ -2,10 +2,12 @@ import streamlit as st
 from rag_pipeline import build_vectorstore, build_qa_chain
 import os
 from dotenv import load_dotenv
+from streamlit_autorefresh import st_autorefresh
 
 load_dotenv()
 
 st.set_page_config(page_title="RAG Chatbot", page_icon="📚", layout="centered")
+st_autorefresh(interval=300000, key="keepalive")
 st.title("📚 RAG Chatbot")
 st.caption("Upload a PDF and ask questions — answers cite source pages.")
 

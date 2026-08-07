@@ -8,3 +8,4 @@ pypdf
 python-dotenv
 cohere==4.57
 langsmith==0.1.147
+streamlit-autorefresh
